@@ -313,4 +313,17 @@ ul {
     .footer-p{
       width: 300px;
     }
+
+  .svg {
+    display: none;
+  }
+
+  .page-content {
+    
+    background-image: url('images/PuzzleBoardBG_Mobile.png');
+    background-repeat: repeat;
+    background-size: 100%;
+  }
+
+
 }
