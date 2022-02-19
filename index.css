@@ -245,6 +245,9 @@ ul {
   margin-left: 10px;
 }
 
+.project-title:hover{
+  text-decoration: underline;
+}
 
 
 /* SVG and hovering */
