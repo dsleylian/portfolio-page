@@ -44,7 +44,7 @@ body{
     .navbar a:not(:first-child) {display: none;}
     .navbar a.icon {
       float: right;
-      display: inline-block;
+      display: block;
     }
   }
   @media screen and (max-width: 600px) {
@@ -142,7 +142,6 @@ p{
   text-align: left;
   margin-left: 20px;
   width: 400px;
-
 }
 
 .cs-screenshot{
@@ -152,8 +151,8 @@ p{
 a, a:visited, a:active {
   pointer-events: auto;
   text-decoration: none;
-
 }
+
 .project a{
   color: inherit;
 }
@@ -267,6 +266,7 @@ ul {
   fill-rule:evenodd;
   clip-rule:evenodd;
   fill:#FFFFFF;
+  transition: 250ms ease-in-out;
 }
 .st0:hover{
   fill: #D2E8EE;
